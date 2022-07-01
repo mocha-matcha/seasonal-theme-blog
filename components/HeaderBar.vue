@@ -1,33 +1,29 @@
 <template>
-<title><Header></Header></title>
-<div class="outer">
+    <header class="header">
 
-    <div class="inner">
+        <div class="container">
 
-        
-        <h1>Links</h1>
+                <h1>Cute-Blog</h1>
 
-    <div class="links">
-        <NuxtLink to="/project-home"> Projects </NuxtLink>
-        
-        <NuxtLink to="/blog-home"> Blog </NuxtLink>
-        
-        <NuxtLink to="pages/about"> About </NuxtLink>
-    </div>
+                <div class="links">
+                    <NuxtLink to="/"> Home </NuxtLink>
+                    <NuxtLink to="/project-home"> Projects </NuxtLink>
+                    <NuxtLink to="/about"> About </NuxtLink>
+            </div>
         </div>
-</div>
+
+
+    </header>
 
 </template>
 
 
 
 <style>
-.links
-{
+.links {
     font-size: large;
     font-style: italic;
     font-weight: bold;
     text-align: right;
 }
-
 </style>

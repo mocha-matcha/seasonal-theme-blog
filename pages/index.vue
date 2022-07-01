@@ -1,10 +1,14 @@
+
+
 <template>
+  <div class="container">
+    <title>Home</title>
 
-<div class="outer">
-
-
-</div>
-
-
-
+  </div>
 </template>
+
+
+<style>
+
+
+</style>
