@@ -3,6 +3,24 @@
   <NuxtPage></NuxtPage>
 </template>
 
+
+
+<script>
+const d = new Date()
+let currentMonth = d.getMonth()
+console.log(currentMonth)
+
+// Dec Jan Feb = winter
+// March April May = Spring
+// June July August = Summer
+// Sep Oct Nov = Fall
+
+
+
+
+
+</script>
+
 <!-- Change colors based on the seasons -->
 <!-- green for spring
 yellow for summer
