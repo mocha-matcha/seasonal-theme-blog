@@ -1,6 +1,8 @@
 <template>
 
-
+<main>
+<ContentDoc path="/about"></ContentDoc>
+</main>
 </template>
 
 <style>

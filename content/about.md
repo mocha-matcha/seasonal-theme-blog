@@ -1,3 +1,3 @@
-# My first blog post
+# Hello
 
-Welcome to my first blog post using content module
+This is the about page using markdown for text

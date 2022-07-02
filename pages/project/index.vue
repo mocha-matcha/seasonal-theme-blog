@@ -1,4 +1,4 @@
 <template>
 
-<h1>Blog-home</h1>
+<h1>Projects</h1>
 </template>

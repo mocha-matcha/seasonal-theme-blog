@@ -7,7 +7,8 @@
 
                 <div class="links">
                     <NuxtLink to="/"> Home </NuxtLink>
-                    <NuxtLink to="/project-home"> Projects </NuxtLink>
+                    <NuxtLink to="/blog"> Blog </NuxtLink>
+                    <NuxtLink to="/project"> Projects </NuxtLink>
                     <NuxtLink to="/about"> About </NuxtLink>
             </div>
         </div>
