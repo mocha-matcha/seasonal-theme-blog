@@ -1,18 +1,21 @@
 <template>
-  <div :class="theme">
+  <div :style="userStyle">
     <HeaderBar></HeaderBar>
     <NuxtPage></NuxtPage>
   </div>
 </template>
 
-<script>
+<script lang="ts"> 
 export default {
   name: "App",
   data() {
     return {
       theme: 'theme',
+      baseColor:"#0000ff",
+      accentColor:"#add8e6"
     };
-  },
+  }
+  ,
   methods: {
     checkSeasonTheme()  {
       let winterMonths = [12, 1, 2];
@@ -23,6 +26,13 @@ export default {
       let months = [winterMonths, springMonths, summerMonths, fallMonths];
 
       let themes = ["winterTheme", "springTheme", "summerTheme", "fallTheme"];
+
+      const baseColors = ["#0000ff","#008000","#ffff00","#a52a2a"];
+
+      const accentColors = ["#add8e6","#90ee90","#ffa90a","#ffe4c4"];
+
+      const baseColor = "";
+      const accentColor = "";
 
       let currentMonth = new Date().getMonth();
       // let currentMonth = 10;
@@ -50,24 +60,39 @@ export default {
       }
     },
   },
+ 
+
   mounted() {
+
     const seasonTheme = this.checkSeasonTheme();
     this.theme = seasonTheme;
     console.log(this.theme)
+    
+    
+
+
   }
-};
+}
 </script>
 
 <style lang="scss">
 
 $baseColor:black;
 $accentColor:white;
+
+@font-face
+{
+  font-family:"VictorMono";
+  src:url("../assets/VictorMono/VictorMono-Regular.ttf") format('truetype');
+
+}
+
 :root
 {  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-
-
+font-family: "VictorMono";
+font-size: 20px;
+color: var(baseColor);
+background-color: var(accentColor);
 }
 :any-link
 {
@@ -77,48 +102,6 @@ $accentColor:white;
   font-style: italic;
   color: $baseColor;
 }
-.theme{
-  background-color: $baseColor;
-  color: $accentColor;
-  overflow: hidden;
-}
-.winterTheme {
-  $baseColor: blue;
-  $accentColor: lightBlue;
-  background-color: $baseColor;
-  color: $accentColor;
-}
 
-.summerTheme {
-  
-  $baseColor: yellow;
-  $accentColor: rgb(255, 169, 10);
-  background-color: $baseColor;
-  color: $accentColor;
-
-}
-
-.fallTheme {
-  $baseColor: brown;
-  $accentColor: bisque;
-    background-color: $baseColor;
-  color: $accentColor;
-}
-
-.springTheme {
-  $baseColor: green;
-  $accentColor: lightGreen;
-    background-color: $baseColor;
-  color: $accentColor;
-}
-
-.container
-{
-
-  border-radius: 25px;
-  background-color: $accentColor;
-  color: $baseColor;
-
-}
 
 </style>

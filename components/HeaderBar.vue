@@ -9,3 +9,14 @@
   </header>
 </template>
 
+<style lang="scss">
+
+.container
+{
+  border-radius: 50px;
+  height: max-content;
+  color: aliceblue;
+  
+}
+
+</style>

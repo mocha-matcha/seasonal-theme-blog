@@ -1,2 +1,6 @@
+---
+title: Home
 
-This is the home markdown
+---
+# Projects
+This is the project home.
