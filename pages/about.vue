@@ -1,12 +1,9 @@
 <template>
+<div>
+<ContentDoc></ContentDoc>
 
-<main>
-<ContentDoc path="/about"></ContentDoc>
-</main>
+</div>
+
+
 </template>
 
-<style>
-.h1{
-    text-align: center;
-}
-</style>

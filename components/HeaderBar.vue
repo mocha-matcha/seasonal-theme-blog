@@ -1,22 +1,12 @@
 <template>
-  <header class="header">
-    <div class="container">
+<div>
       <NuxtLink to="/"> Home </NuxtLink>
       <NuxtLink to="/blog"> Blog </NuxtLink>
       <NuxtLink to="/project"> Projects </NuxtLink>
       <NuxtLink to="/about"> About </NuxtLink>
-    </div>
-  </header>
+
+</div>
+
+
 </template>
 
-<style lang="scss">
-
-.container
-{
-  border-radius: 50px;
-  height: max-content;
-  color: aliceblue;
-  
-}
-
-</style>

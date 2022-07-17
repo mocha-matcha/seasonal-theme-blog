@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Example Home
 description: This is the example home
 tags: home,blog,example
 ---

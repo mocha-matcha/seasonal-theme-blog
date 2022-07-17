@@ -1,5 +1,7 @@
 <template>
-  <main>
+<div>
     <ContentDoc></ContentDoc>
-  </main>
+
+</div>
+
 </template>

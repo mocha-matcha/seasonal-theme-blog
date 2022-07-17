@@ -1,6 +1,6 @@
 ---
-title: Example Home
-tags: home
+title: Beta
+
 ---
 # Project 1
 
