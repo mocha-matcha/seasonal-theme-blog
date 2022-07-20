@@ -1,7 +1,7 @@
 ---
 title: Home
 description: This is the blog home
-tags: home,blog
+tags: home
 ---
 # Hello
 

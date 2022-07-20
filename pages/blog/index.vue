@@ -17,6 +17,6 @@
 import { ParsedContent } from '@nuxt/content/dist/runtime/types';
 
 // Find what doesnt have the home tag
-const articles = await queryContent('/blog').where({tags:{$contains:['home']}}).limit(20).find();
+const articles = await queryContent('/blog').where({tags:{$containsAny:['blog']}}).limit(20).find();
 
 </script>

@@ -1,7 +1,7 @@
 ---
 title: Example Home
 description: This is the example home
-tags: home,blog,example
+tags: home,example
 ---
 # Project 1
 
