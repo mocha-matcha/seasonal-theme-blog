@@ -17,12 +17,16 @@ html {
   padding: 0;
   margin: 0;
   width: 100%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @font-face {
   font-family: "VictorMono";
   src: url("../assets/VictorMono/VictorMono-Regular.ttf") format("truetype");
-  font-size: 20px;
+  font-size: 25px;
+
 }
 
 #app {
@@ -34,6 +38,10 @@ html {
   background-color: v-bind(baseColor);
   color: v-bind(accentColor);
   background-size: 100%;
+  text-align: center;
+  border-width: 20px;
+  border-color: v-bind(accentColor);
+  
 }
 
 :any-link {

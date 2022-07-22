@@ -1,3 +1,8 @@
+# Seasonal Blog
+Proof of concept blog that changes color scheme based on the season.
+
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
